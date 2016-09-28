@@ -1,5 +1,39 @@
 ##changelog
 
+### 2.0.7 / 2016-9-14 10:50:00
+* [add]支持图片生成webp格式，并更新相关css图片链接
+
+### 2.0.3 / 2016-7-6 13:50:00
+* [bug]修复无法输出类似icon-null.png的文件名称
+* [add]支持输出font icon
+
+### 2.0.1 / 2016-4-28 16:39:00
+* [add]cssSprite支持水平合并
+* [add]可以指定需要合并的widget名称
+
+### 2.0.0 / 2016-4-20 14:26:00
+* 发布jdf@2.0.0
+
+### 1.8.42 / 2016-4-11 16:35:00
+* [add]jdf build support combo url
+* [add]support the CMD
+* [add]cssSprite支持rem
+
+### 1.8.4 / 2016-1-20 14:57:00
+* [add]支持nodejs5.0
+* [fix]基于一个标准jdf工程，重新整理单元测试
+* [bug]修复若干`jdf output`css背景图片问题
+* [add]支持smarty模版
+* [bug]修复使用less @import抛异常的问题
+
+### 1.8.3 / 2016-1-7 21:24:00
+* [add]静态服务器增加对字体文件Content-Type的支持
+* [fix]jdf u -debug 支持上传sourceMap到预发服务器，方便调试
+* [bug]fix "imagesSuffix：true" png path bug
+
+### 1.8.2
+* 支持使用ES6语法开发JS
+
 ### 1.8.13 / 2015-11-4 10:50:00
 * jdf widget -install支持依赖自动下载安装
 * jdf output -plain，只解析编译widget、sass，不对文件进行任何替换压缩操作
